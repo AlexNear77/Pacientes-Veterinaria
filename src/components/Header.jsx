@@ -1,8 +1,8 @@
 const Header = () => {
     return ( 
-        <>
-            Desde el Header
-        </>
+        <header>
+            <h1 className="text-4xl">Desde el Header</h1>
+        </header>
      );
 }
  

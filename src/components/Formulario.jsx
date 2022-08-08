@@ -21,7 +21,13 @@ const Formulario = ({pacientes,setPacientes}) => {
         }
         setError(false);
         //Objeto paciente
-        const paciente = {nombre, propietario, email, sintomas}
+        const paciente = {
+            nombre, 
+            propietario, 
+            email, 
+            sintomas, 
+            fecha,
+        }
         //Actualizando array pacientes de App.jsx
         setPacientes([...pacientes, paciente]);
         //Reiniciando Formulario
